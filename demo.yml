@@ -1,0 +1,13 @@
+app:
+  datasource:
+    person:
+      url: jdbc:mariadb://localhost:4306/heroes #check the port
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: root
+      password: my-secret-pw # password used on MariaDB docker container
+
+    hero:
+      url: jdbc:mariadb://localhost:5306/heroes #check the port
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: root
+      password: my-secret-pw # password used on MariaDB docker container
